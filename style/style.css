@@ -80,6 +80,7 @@ textarea {
 }
 textarea {
 	vertical-align: top;
+	resize: none;
     width: 100%;
 }
 h1,
