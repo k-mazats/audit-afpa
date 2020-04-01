@@ -8,6 +8,7 @@
     <title>Audit AFPA</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="SHORTCUT ICON" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
 </head>
