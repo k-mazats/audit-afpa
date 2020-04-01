@@ -17,7 +17,7 @@
         </div>
         <div class="mailContent">
             <label for="contentMail">Message</label>
-            <textarea name="contentMail" id="contentMail"></textarea>
+            <textarea name="contentMail" id="contentMail" rows="10"></textarea>
         </div>
         <button type="submit">Envoyer</button>
 </form>
