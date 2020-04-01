@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+html {
+	height: 100%;
+	background-color: rgb(179, 179, 179);
+}
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
+	display: grid;
+	grid-template-rows: 7em auto 2em;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	-webkit-box-shadow: 0px 0px 36px 14px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 36px 14px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 36px 14px rgba(0, 0, 0, 0.75);
+}
+header {
+	background-color: #00c6bb;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+main {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #212121;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5em;
+}
+footer {
+	background-color: #00c6bb;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>span{
+    width: 50%;
+}
+footer>span:nth-child(1){
+    border-right: 1px solid white;
+}
+ul{
+    padding-inline-start: 0;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0 0.5em;
+}
+ul>li:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+li > a {
+    color: #212121;
+    text-decoration: none;
+}
+li > a:active,
+li > a:hover {
+	color: #393939;
+}
+input,
+textarea {
+	color: #212121;
+    background-color: white;
+    margin: 0.5em;
+}
+textarea {
+	vertical-align: top;
+    width: 100%;
+}
+h1,
+h2 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1em;
+}
+form {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+#alert{
+	color: #212121;
+	margin-bottom: 2em;
+	padding: 1.5em;
+}
+.valid{
+border: 2px solid rgb(2, 75, 2);
+background-color: rgb(169, 201, 122);
+}
+.invalid{
+border: 2px solid red;
+background-color: rgb(255, 116, 116);
+}
+.mailFrom,
+.mailContent {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.mailContent {
+	margin: 2em 0;
+	width: 100%;
+}
+.mailFrom > div {
+	display: inline-block;
+	width: calc(100 / 3);
+}
+iframe,img{
+    border: 1px solid white;
+}
+img{
+    width: 560px;
+    height: auto;
+}
+@media (max-width: 700px) {
+	.mailFrom,
+	.mailContent {
+		flex-wrap: wrap;
+		width: 100%;
+    }
+    
+    .mailContent{
+        margin: 0.5em 0;
+    }
+	.mailFrom > div {
+        display: flex;
+        justify-content: space-between ;
+		width: 100%;
+		margin: 0.5em 0;
+    }
+}
