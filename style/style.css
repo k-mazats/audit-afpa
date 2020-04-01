@@ -76,7 +76,8 @@ input,
 textarea {
 	color: #212121;
     background-color: white;
-    margin: 0.5em;
+	margin: 0.5em;
+	text-align: left;
 }
 textarea {
 	vertical-align: top;
